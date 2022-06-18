@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 76%;
+    margin: auto;
+}
+
+
+.learn-wrapper{
+    
+    margin: 20px;
+    line-height: 1.5em;
+    
+    
+
+}
+.learn-wrapper h1{
+    /* padding-right: 30px; */
+    
+    margin-bottom: 35px;
+    line-height: 0.99em;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.learn-wrapper p{
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.try-wrapper{
+    background-color: hsl(248, 32%, 49%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 6px hsla(0, 1%, 50%, 0.3);
+
+
+}
+
+
+
+#form{
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 28px;
+    width: 400px;
+    box-shadow: 0px 6px hsla(0, 1%, 50%, 0.3);
+}
+
+#input-field {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* outline: none; */
+    /* -webkit-transition: 3s;
+    transition: 3s; */
+    outline-color: hsl(246, 25%, 77%);
+  }
+
+  /* #input-field :focus {
+    border: 3px solid black;
+  } */
+
+#button {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 10px 10px; */
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}  
+.terms{
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(190, 186, 186);
+}
+
+@media screen and (max-width : 1440px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        background-image: url(images/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%);
+    }
+    
+}
+
+@media screen and (min-width : 375px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        background-image: url(images/bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+    }
+    
+}
+
+
+
+
+
+
+/* 
+
+Trying out to see if grid would work
+
+body{
+    display: flex;
+    
+    
+    justify-content: center;
+    align-content: center;
+    place-items: center;
+    height: 100vh;
+    
+}
+
+main{
+    
+    width: 50%; 
+    margin: auto;
+}
+
+.main-container{
+    display: grid;
+    grid-template-areas: 
+    'a b b'
+    'a c c'
+    ;
+
+    gap: 15px;
+   
+}
+
+div{
+    text-align: center;
+    
+}
+
+.learn-wrapper{
+    background-color: mediumaquamarine;
+    grid-area: a;
+    color: white;
+    
+}
+
+.try-wrapper{
+    background-color: navajowhite;
+    grid-area: b;
+    color: white;
+    
+}
+
+.form-wrapper{
+    grid-area: c;
+    padding: 45px;
+}
+
+#form{
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 25px;
+    
+}
+#input-field{
+    width: 100%;
+    padding: 12px 20px;
+} */
